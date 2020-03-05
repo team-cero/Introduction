@@ -1,4 +1,4 @@
-<resources>
+<resources xmlns:tools="http://schemas.android.com/tools">
     <string name="app_name">Introduction</string>
     <string name="welcome_to">WELCOME TO</string>
     <string name="cero_app">Cero App</string>
@@ -17,5 +17,19 @@
     <!-- page4 -->
     <string name="get_rewarde">Get rewarded</string>
     <string name="if_you_achi">If you achieve your personal goal you \ncan coose between attractive \neco-friendly rewards.</string>
+
+    <!-- calc frag1 -->
+    <string name="let_s_get_t">Let&apos;s get to \nknow you</string>
+    <string name="in_order_to">In order to calculate your carbon footprint, we need to know which car you drive.</string>
+    <string name="brand">Brand</string>
+    <string name="car_model">Car Model</string>
+    <string name="label_next">Next</string>
+    <string name="skip_for_now" tools:ignore="DuplicateDefinition">Skip for now</string>
+
+
+    <!-- calc frag2 -->
+    <string name="journey_tim">Journey \ntime</string>
+    <string name="how_many_ki">How many kilometers do you \naproximately drive per year?</string>
+
 
 </resources>

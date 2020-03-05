@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Sample1Fragment">
+
+    <!-- Journey time -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+    <TextView
+        android:id="@+id/journey_tim"
+        android:layout_width="227dp"
+        android:layout_height="78dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="92dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="56dp"
+        android:text="@string/journey_tim"
+        android:textAppearance="@style/journey_tim"
+        android:lineSpacingExtra="0sp"
+        android:gravity="center_horizontal|top"
+        />
+    </LinearLayout>
+
+    <!-- How many kilometers do you aproximately drive per year? -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/how_many_ki"
+            android:layout_width="234dp"
+            android:layout_height="40dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="89dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="160dp"
+            android:text="@string/how_many_ki"
+            android:textAppearance="@style/how_many_ki"
+            android:lineSpacingExtra="1sp"
+            android:translationY="-0.47sp"
+            android:gravity="center_horizontal|top"
+            />
+
+    </LinearLayout>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

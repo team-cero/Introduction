@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Sample1Fragment">
+
+    <!-- Let’s get to know you -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+    <TextView
+        android:id="@+id/let_s_get_t"
+        android:layout_width="227dp"
+        android:layout_height="78dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="92dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="56dp"
+        android:text="@string/let_s_get_t"
+        android:textAppearance="@style/let_s_get_t"
+        android:lineSpacingExtra="0sp"
+        android:gravity="center_horizontal|top"
+        />
+    </LinearLayout>
+
+    <!-- In order to calculate your carbon footprint, we need to know which car you drive. -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+    <TextView
+        android:id="@+id/in_order_to"
+        android:layout_width="234dp"
+        android:layout_height="60dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="89dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="160dp"
+        android:text="@string/in_order_to"
+        android:textAppearance="@style/in_order_to"
+        android:lineSpacingExtra="1sp"
+        android:translationY="-0.47sp"
+        android:gravity="center_horizontal|top"
+        />
+    </LinearLayout>
+
+    <!-- Brand -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/brand"
+            android:layout_width="42dp"
+            android:layout_height="24dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="185dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="293dp"
+            android:text="@string/brand"
+            android:textAppearance="@style/brand"
+            android:lineSpacingExtra="5sp"
+            android:translationY="-2.47sp"
+            android:gravity="top"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+    <Spinner
+        android:id="@+id/spinner1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <!-- Car Model -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+    <TextView
+        android:id="@+id/car_model"
+        android:layout_width="70dp"
+        android:layout_height="24dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="171dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="419dp"
+        android:text="@string/car_model"
+        android:textAppearance="@style/car_model"
+        android:lineSpacingExtra="5sp"
+        android:translationY="-2.47sp"
+        android:gravity="top"
+        />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+    <Spinner
+        android:id="@+id/spinner2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/contained_a"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/contained_a"
+        />
+
+    <!-- ↳ ✏️ Label -->
+    <TextView
+        android:id="@+id/label_next"
+        android:layout_width="0dp"
+        android:layout_height="16dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="156dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="155dp"
+        android:layout_centerVertical="true"
+        android:text="@string/label_next"
+        android:textAppearance="@style/label_next"
+        android:lineSpacingExtra="0sp"
+        android:gravity="center_horizontal|top"
+        />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/skip_for_now"
+            android:layout_width="0dp"
+            android:layout_height="16dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="156dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="155dp"
+            android:layout_centerVertical="true"
+            android:text="@string/skip_for_now"
+            android:textAppearance="@style/skip_for_now"
+            android:lineSpacingExtra="0sp"
+            android:gravity="center_horizontal|top"
+            />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
