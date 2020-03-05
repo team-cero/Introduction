@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Introduction</string>
+    <string name="welcome_to">WELCOME TO</string>
+    <string name="cero_app">Cero App</string>
+    <string name="do_you_want">Do you want to reduce your carbon footprint? We will help you with it!</string>
+    <string name="skip">SKIP</string>
+    <string name="next">Next</string>
+</resources>
