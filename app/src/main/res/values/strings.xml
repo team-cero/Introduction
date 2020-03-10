@@ -19,7 +19,13 @@
     <string name="if_you_achi">If you achieve your personal goal you \ncan coose between attractive \neco-friendly rewards.</string>
 
     <!-- calc frag1 -->
-    <string name="let_s_get_t">Let&apos;s get to \nknow you</string>
+
+    <string name="button01">Button 01</string>
+    <string name="pop01">Pop 01</string>
+    <string name="button02">Button 02</string>
+    <string name="pop02">Pop 02</string>
+
+    <string name="let_s_get_t">Let us get to know you</string>
     <string name="in_order_to">In order to calculate your carbon footprint, we need to know which car you drive.</string>
     <string name="brand">Brand</string>
     <string name="car_model">Car Model</string>

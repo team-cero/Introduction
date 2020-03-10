@@ -23,5 +23,7 @@ class MainActivity : AppCompatActivity() {
         val adapter = SamplePagerAdapter(supportFragmentManager, fragmentList)
         /// set adapter
         viewPager.adapter = adapter
+
+
     }
 }
