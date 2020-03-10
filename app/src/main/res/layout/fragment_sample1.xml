@@ -12,20 +12,20 @@
         android:layout_height="match_parent"
         android:orientation="vertical">
 
-    <TextView
+        <TextView
             android:id="@+id/welcome_to"
             android:layout_width="95dp"
             android:layout_height="24dp"
             android:layout_alignParentLeft="true"
-            android:layout_marginLeft="158dp"
             android:layout_alignParentTop="true"
+            android:layout_marginLeft="158dp"
             android:layout_marginTop="438dp"
+            android:fontFamily="@font/open_sans_light"
+            android:gravity="center_horizontal|top"
+            android:lineSpacingExtra="5sp"
             android:text="@string/welcome_to"
             android:textAppearance="@style/welcome_to"
-            android:lineSpacingExtra="5sp"
-            android:translationY="-2.47sp"
-            android:gravity="center_horizontal|top"
-            />
+            android:translationY="-2.47sp" />
 
     </LinearLayout>
 
@@ -43,11 +43,14 @@
             android:layout_alignParentTop="true"
             android:layout_marginLeft="60dp"
             android:layout_marginTop="438dp"
+            android:fontFamily="@font/playfair_display"
             android:gravity="center_horizontal|top"
             android:lineSpacingExtra="16sp"
             android:text="@string/cero_app"
             android:textAppearance="@style/cero_app"
-            android:translationY="-8.01sp" />
+            android:translationY="-8.01sp"
+            android:alpha="0.1"/>
+
     </LinearLayout>
 
     <LinearLayout
@@ -55,20 +58,20 @@
         android:layout_height="match_parent"
         android:orientation="vertical">
     <!-- Do you want to reduce your carbon footprint? We will help you with it! -->
-    <TextView
-        android:id="@+id/do_you_want"
-        android:layout_width="252dp"
-        android:layout_height="33dp"
-        android:layout_alignParentLeft="true"
-        android:layout_marginLeft="79dp"
-        android:layout_alignParentTop="true"
-        android:layout_marginTop="564dp"
-        android:text="@string/do_you_want"
-        android:textAppearance="@style/do_you_want"
-        android:lineSpacingExtra="1sp"
-        android:translationY="-0.47sp"
-        android:gravity="center_horizontal|top"
-        />
+        <TextView
+            android:id="@+id/do_you_want"
+            android:layout_width="252dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="79dp"
+            android:layout_marginTop="564dp"
+            android:fontFamily="@font/open_sans_light"
+            android:gravity="center_horizontal|top"
+            android:lineSpacingExtra="1sp"
+            android:text="@string/do_you_want"
+            android:textAppearance="@style/do_you_want"
+            android:translationY="-0.47sp" />
     </LinearLayout>
 
     <LinearLayout
@@ -96,19 +99,18 @@
         android:layout_height="match_parent"
         android:orientation="vertical">
     <!-- Next -->
-    <TextView
-        android:id="@+id/next"
-        android:layout_width="0dp"
-        android:layout_height="0dp"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentBottom="true"
-        android:text="@string/next"
-        android:textAppearance="@style/next"
-        android:lineSpacingExtra="0sp"
-        android:gravity="center_horizontal|top"
-        />
+        <TextView
+            android:id="@+id/next"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:gravity="center_horizontal|top"
+            android:lineSpacingExtra="0sp"
+            android:text="@string/next"
+            android:textAppearance="@style/next" />
     </LinearLayout>
 
     <LinearLayout
