@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".Sample1Fragment">
 
         <!-- Welcome to -->
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -26,6 +28,45 @@
             android:text="@string/welcome_to"
             android:textAppearance="@style/welcome_to"
             android:translationY="-2.47sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <!-- Slider Intro -->
+            <View
+                android:id="@+id/slider_intr"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentBottom="true"
+                android:background="#00000000" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp"
+            android:orientation="vertical">
+            <!-- SKIP -->
+            <TextView
+                android:id="@+id/skip"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentBottom="true"
+                android:gravity="center_horizontal|top"
+                android:lineSpacingExtra="0sp"
+                android:text="@string/skip"
+                android:textAppearance="@style/skip" />
+        </LinearLayout>
 
     </LinearLayout>
 
@@ -72,62 +113,17 @@
             android:text="@string/do_you_want"
             android:textAppearance="@style/do_you_want"
             android:translationY="-0.47sp" />
-    </LinearLayout>
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:orientation="vertical">
-    <!-- SKIP -->
-    <TextView
-        android:id="@+id/skip"
-        android:layout_width="0dp"
-        android:layout_height="0dp"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentBottom="true"
-        android:text="@string/skip"
-        android:textAppearance="@style/skip"
-        android:lineSpacingExtra="0sp"
-        android:gravity="center_horizontal|top"
-        />
-    </LinearLayout>
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="30dp"
+            android:background="#ffffff"
+            android:
+            android:text="Skip" />
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:orientation="vertical">
-    <!-- Next -->
-        <TextView
-            android:id="@+id/next"
-            android:layout_width="0dp"
-            android:layout_height="0dp"
-            android:layout_alignParentLeft="true"
-            android:layout_alignParentTop="true"
-            android:layout_alignParentRight="true"
-            android:layout_alignParentBottom="true"
-            android:gravity="center_horizontal|top"
-            android:lineSpacingExtra="0sp"
-            android:text="@string/next"
-            android:textAppearance="@style/next" />
-    </LinearLayout>
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:orientation="vertical">
-    <!-- Slider Intro -->
-    <View
-        android:id="@+id/slider_intr"
-        android:layout_width="0dp"
-        android:layout_height="0dp"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentBottom="true"
-        android:background="#00000000"
-        />
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
